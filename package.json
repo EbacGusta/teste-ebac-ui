@@ -19,7 +19,9 @@
   "homepage": "https://github.com/EbacGusta/teste-ebac-ui#readme",
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
-    "cypress": "^10.10.0",
     "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "cypress": "^10.11.0"
   }
 }
