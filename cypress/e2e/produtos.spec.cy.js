@@ -32,10 +32,10 @@ describe('Funcionalidade página de produtos', () => {
     });
 
     it.only('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
-       cy.addProdutos('Atlas Fitness Tank', 'M', 'Blue', 3)
+       cy.addProdutos('Abominable Hoodie', 'S', 'Blue', 3)
     });
 
-    it.only('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
+    it('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
         cy.addProdutos('Ajax Full-Zip Sweatshirt', 'S', 'Green', 1)
     });
 
